@@ -1,5 +1,6 @@
 
 
 *{ box-sizing: border-box;}/*Evita que o padding altere o tamanho da div*/
-#conteudo {background-color: red; width: 300px; padding: 30px; box-shadow: 10px 10px 5px greenyellow;}
+#conteudo {background-color: red; width: 300px; height: 50px; overflow: auto;}
+#conteudo p {opacity: 1;}
 
