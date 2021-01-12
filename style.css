@@ -1,6 +1,1 @@
-
-
-*{ box-sizing: border-box;}/*Evita que o padding altere o tamanho da div*/
-#conteudo {background-color: red; width: 300px; height: 50px; overflow: auto;}
-#conteudo p {opacity: 1;}
-
+#cores {width: 200px; height: 200px; background: linear-gradient(to top, red, green)}
