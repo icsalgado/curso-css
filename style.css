@@ -1,5 +1,5 @@
-p {color: grey; text-transform: uppercase; text-align: justify; text-indent: 20px; line-height: 15px; direction: ltr; letter-spacing: 5px; word-spacing: 10px;}
 
-h1 {text-align: left; text-decoration: underline; text-shadow: 3px 3px 4px red;}
-h2 {text-align: right; text-decoration: overline; text-shadow: 3px 3px red;}
-h3 {text-align: center; text-decoration: line-through;}
+
+*{ box-sizing: border-box;}/*Evita que o padding altere o tamanho da div*/
+#conteudo {background-color: red; width: 300px; padding: 30px; box-shadow: 10px 10px 5px greenyellow;}
+
