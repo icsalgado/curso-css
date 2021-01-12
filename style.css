@@ -1,4 +1,1 @@
-#conteudo {width: 600px; height: 1200px; background-color: blue; position: relative;}
-#texto {width: 500px; background-color: burlywood; position: fixed; left: 20px; top: 40px; border: solid chocolate 5px; outline: 5px dotted green;}
-#exemplo {padding-top: 200px; width: 300px; height: 350px; background-color: green; transition-property: width; transition-duration: 2s; transition-timing-function: linear;transition-delay: 2s;}
-#exemplo:hover {width: 300px; height: 350px; background-color: black;}
+body {background-image: url(imagem.jpg); background-size: 100%;}
