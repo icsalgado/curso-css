@@ -1,7 +1,13 @@
 *{margin: 0; padding: 0; color: red;}/*Seletor universal geralmente para preset da página*/
 
+
+
 /*Seletores ID são precedidos de # e são únicos*/
-#conteudo {background-color: blue; padding: 20px;}
+#conteudo {background-color: blue; color: #fff; width: 500px; height: 100px;}
+#controles1 {background-color: blueviolet; color: white; padding: 200px; width: 50%;}
+#controles2 {background-color: wheat;color: white; max-width: 500px; min-width: 100px;}
+#exemplo {background-color: yellowgreen;color: white; width: 500px; padding: 10px 20px 30px 40px;}
+#exemplo2 {margin: 10px 20px 30px 40px; background-color: blue;color: white; width: 500px; padding: 10px 20px 30px 40px;}
 
 /*Seletor classe é precedido de um ponto no css e pode ter mais de um*/
 .textoprincipal {color: indianred; text-align: right; font-size: 100px;}
