@@ -1,24 +1,5 @@
-*{margin: 0; padding: 0; color: red;}/*Seletor universal geralmente para preset da página*/
+p {color: grey; text-transform: uppercase; text-align: justify; text-indent: 20px; line-height: 15px; direction: ltr; letter-spacing: 5px; word-spacing: 10px;}
 
-
-
-/*Seletores ID são precedidos de # e são únicos*/
-#conteudo {background-color: blue; color: #fff; width: 500px; height: 100px;}
-#controles1 {background-color: blueviolet; color: white; padding: 200px; width: 50%;}
-#controles2 {background-color: wheat;color: white; max-width: 500px; min-width: 100px;}
-#exemplo {background-color: yellowgreen;color: white; width: 500px; padding: 10px 20px 30px 40px;}
-#exemplo2 {margin: 10px 20px 30px 40px; background-color: blue;color: white; width: 500px; padding: 10px 20px 30px 40px;}
-
-/*Seletor classe é precedido de um ponto no css e pode ter mais de um*/
-.textoprincipal {color: indianred; text-align: right; font-size: 100px;}
-
-/*Seletores agrupados evitam repetição de código*/
-h2, h3 {color: grey; text-align: center; font-size: 30px;}
-
-/*Seletor atributo*/
-input[type="text"]{width: 200px; background-color: greenyellow;}
-input[type="email"]{width: 200px; background-color: yellow;}
-
-/*Seletor tag*/
-p {color: green;}
-h1 {color: blue; font-size: 60px; font-family: 'Courier New', Courier, monospace;}
+h1 {text-align: left; text-decoration: underline; text-shadow: 3px 3px 4px red;}
+h2 {text-align: right; text-decoration: overline; text-shadow: 3px 3px red;}
+h3 {text-align: center; text-decoration: line-through;}
